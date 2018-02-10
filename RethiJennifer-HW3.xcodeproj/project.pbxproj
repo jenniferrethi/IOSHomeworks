@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		F3642529202E7576008FE2BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3642528202E7576008FE2BA /* AppDelegate.swift */; };
 		F364252B202E7576008FE2BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F364252A202E7576008FE2BA /* ViewController.swift */; };
-		F364252E202E7576008FE2BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F364252C202E7576008FE2BA /* Main.storyboard */; };
 		F3642530202E7576008FE2BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F364252F202E7576008FE2BA /* Assets.xcassets */; };
 		F3642533202E7576008FE2BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3642531202E7576008FE2BA /* LaunchScreen.storyboard */; };
+		F364253D202E77E9008FE2BA /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F364253C202E77E9008FE2BA /* CalculateViewController.swift */; };
+		F3642541202E80F5008FE2BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3642540202E80F5008FE2BA /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F3642525202E7576008FE2BA /* RethiJennifer-HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RethiJennifer-HW3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3642528202E7576008FE2BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F364252A202E7576008FE2BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F364252D202E7576008FE2BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F364252F202E7576008FE2BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3642532202E7576008FE2BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3642534202E7576008FE2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F364253C202E77E9008FE2BA /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
+		F3642540202E80F5008FE2BA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 			children = (
 				F3642528202E7576008FE2BA /* AppDelegate.swift */,
 				F364252A202E7576008FE2BA /* ViewController.swift */,
-				F364252C202E7576008FE2BA /* Main.storyboard */,
 				F364252F202E7576008FE2BA /* Assets.xcassets */,
 				F3642531202E7576008FE2BA /* LaunchScreen.storyboard */,
 				F3642534202E7576008FE2BA /* Info.plist */,
+				F364253C202E77E9008FE2BA /* CalculateViewController.swift */,
+				F3642540202E80F5008FE2BA /* Main.storyboard */,
 			);
 			path = "RethiJennifer-HW3";
 			sourceTree = "<group>";
@@ -125,7 +128,7 @@
 			files = (
 				F3642533202E7576008FE2BA /* LaunchScreen.storyboard in Resources */,
 				F3642530202E7576008FE2BA /* Assets.xcassets in Resources */,
-				F364252E202E7576008FE2BA /* Main.storyboard in Resources */,
+				F3642541202E80F5008FE2BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,20 +141,13 @@
 			files = (
 				F364252B202E7576008FE2BA /* ViewController.swift in Sources */,
 				F3642529202E7576008FE2BA /* AppDelegate.swift in Sources */,
+				F364253D202E77E9008FE2BA /* CalculateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F364252C202E7576008FE2BA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F364252D202E7576008FE2BA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F3642531202E7576008FE2BA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
